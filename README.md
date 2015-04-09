@@ -1,0 +1,2 @@
+# holyfreeze
+my first repo
