@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>URL Encoder</title>
+		<meta charset="utf-8"></meta>
+		<link rel="stylesheet" type="text/css" href="style/main.css">
+		<script src="script/main.js"></script>
+	</head>
+	
+	<body>
+		<div id="in">
+			<h3>Raw URL</h3>
+			<form>
+				<input type="url" id="input_url" onkeypress="return keyHandler(event)">
+				<br />
+				<input type="button" id="button" onclick="encodeUrl()" value="encode">
+			</form>
+		</div>
+		<h3>Encoded URL</h3>
+		<div id="out">
+		</div>
+	</body>
+</html>
